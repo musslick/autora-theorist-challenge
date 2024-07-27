@@ -1,8 +1,28 @@
 {
-  "name": "My Codespace",
-  "dockerFile": "Dockerfile",
-  "settings": {
-    "workbench.startupEditor": "newUntitledFile"
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "flask --debug run"
   },
-  "postCreateCommand": "echo 'postCreateCommand was called!' > /tmp/postCreateCommand.log"
+  "portsAttributes": {
+    "5000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "tuturial/index.html"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "forwardPorts": [5000]
 }
