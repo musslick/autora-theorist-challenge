@@ -4,7 +4,7 @@
     {
       "label": "Open and Split File",
       "type": "shell",
-      "command": "code --goto path/to/your/file.txt",
+      "command": "code --goto tutorial/step1.md",
       "presentation": {
         "reveal": "always",
         "panel": "new"
