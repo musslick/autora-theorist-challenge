@@ -4,5 +4,5 @@
   "settings": {
     "workbench.startupEditor": "newUntitledFile"
   },
-  "postCreateCommand": "code --wait tutorial/step1.md && code --command workbench.action.splitEditorRight"
+  "postCreateCommand": "echo 'postCreateCommand was called!' > /tmp/postCreateCommand.log"
 }
