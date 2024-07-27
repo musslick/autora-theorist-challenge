@@ -1,0 +1,5 @@
+{
+  "workbench.startupEditor": "none", // Ensures no welcome page is shown
+  "files.autoSave": "onWindowChange", // Optional: Enables auto-save on window change
+  "workbench.editor.openSideBySideDirection": "right"
+}

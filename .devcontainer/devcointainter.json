@@ -1,0 +1,8 @@
+{
+  "name": "My Codespace",
+  "dockerFile": "Dockerfile",
+  "settings": {
+    "workbench.startupEditor": "newUntitledFile"
+  },
+  "postCreateCommand": "code --install-extension formulahendry.code-runner && code --goto path/to/your/file.txt && code --command workbench.action.splitEditorRight"
+}
