@@ -1,0 +1,3 @@
+{
+  "postCreateCommand": "code --reuse-window --goto tutorial/index.html"
+}
