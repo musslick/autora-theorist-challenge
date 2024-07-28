@@ -1,3 +1,9 @@
 {
-  "postAttachCommand": ""
+  "customizations": {
+  "codespaces": {
+    "openFiles": [
+      "tutorial/step1.md"
+    ]
+  }
+}
 }
