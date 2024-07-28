@@ -27,4 +27,10 @@ Activate it by running
 source "venv311/bin/activate"
 ```
 
-[3-Create-Template](./3-Create-Template.md)
+***
+Next: [3-Create-Template](./3-Create-Template.md)
+***
+
+**Navigate Through the Tutorial**:
+- Use the navigation buttons in the preview pane to move through the tutorial steps.
+- After pressing on links to navigate, click on the left editor window to refocus.
